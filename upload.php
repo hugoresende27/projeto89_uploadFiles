@@ -50,7 +50,8 @@ Array
 
 
     //FINALIZAR O UPLOAD DO FICHEIRO
-    move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/'.$_FILES['file']['name']);
+    $file_id = uniqid().'.'.$file_extension;//uniqid cria um id unico para cada ficheiro
+    move_uploaded_file($_FILES['file']['tmp_name'], 'uploads/'.$file_id);
     // echo '<pre>';
     // print_r($_FILES);
     // die();

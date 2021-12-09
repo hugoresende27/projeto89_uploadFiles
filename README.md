@@ -4,6 +4,7 @@
 - tratar o ficheiro
 - verificar extensão
 - verificar tamanho
+- atribuir id único como nome de cada ficheiro a fazer upload
 
 #### MIME types
 - image/jpeg
