@@ -15,7 +15,12 @@
             <input type="password" name="senha">
         </p>
         <p>
+            <p>TODOS OS TIPOS DE FICHEIRO</p>
             <input type="file" name="file">
+        </p>
+        <p>
+            <p>TIPOS DE FICHEIRO application/pdf ou image/jpeg</p>
+            <input type="file" name="file" accept="application/pdf, image/jpeg">
         </p>
 
         <input type="submit" value="Enviar">
